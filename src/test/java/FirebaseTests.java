@@ -1,7 +1,9 @@
+import net.serenitybdd.junit.runners.SerenityRunner;
 import org.json.simple.JSONObject;
 import org.junit.BeforeClass;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.junit.runners.MethodSorters;
 
 import java.util.HashMap;
@@ -10,6 +12,7 @@ import java.util.Map;
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.equalTo;
 
+@RunWith(SerenityRunner.class)
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class FirebaseTests
 {
@@ -66,7 +69,7 @@ public class FirebaseTests
             .then()
             .assertThat()
             .statusCode(200)
-            .body(containsString("{\"id\":1}"));
+            .body(containsString("{\"id\":5}"));
 
     }
 

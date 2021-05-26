@@ -7,7 +7,7 @@ import org.json.simple.JSONObject;
 
 public class FireBaseEndPoint
 {
-    private static final String url = "https://kpi-lab5-default-rtdb.europe-west1.firebasedatabase.app/";
+    private static final String url = "https://kpi-lab-8-3c38e-default-rtdb.europe-west1.firebasedatabase.app/";
 
     public Response getData (String pathToData)
     {
