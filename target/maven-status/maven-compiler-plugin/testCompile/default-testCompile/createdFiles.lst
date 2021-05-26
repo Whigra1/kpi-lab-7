@@ -1,0 +1,10 @@
+ProducerTest.class
+entities\Producer.class
+RegistrationTest.class
+entities\Registration.class
+entities\Error.class
+ConfigPath.class
+LoginTest.class
+entities\Login.class
+ApiEndpoints.class
+entities\Token.class
